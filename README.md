@@ -14,7 +14,7 @@ Conducted data manipulation from 6 independent sources, trained unsupervised lea
 
 # Table of Contents
 
-- [App Architecture](#App Architecture)
+- [Architecture](#Architecture)
 - [Machine Learning](#development)
     - [Adding to Chrome](#adding-to-chrome)
     - [Adding to Firefox](#adding-to-firefox)
