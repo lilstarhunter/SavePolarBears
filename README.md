@@ -3,10 +3,15 @@
 ![](Images/pb1.png)
 
 
-The team worked on a final project for a bootcamp where they showcased the skills learned in the camp into a Machine learning web application. The technologies used in the app are as follows:
-* Cloud: Google Colab, AWS S3, AWS RDS PostGres, Heroku, Tableau Public
+Collaborative project to showcase variety of skills mastered following a 6 month bootcamp in Data Analysis and Visualization at the University of Pennsvylania. Created a full-stack machine learning web application which provides essential information on climate, polar bear population, and identifys emerging trends where climate change intersects the Arctic polar bear species. 
+
+Conducted data manipulation from 6 independent sources, trained unsupervised learning algorithms and clustering techniques on climate change metrics to predict polar bear mobility and habitat suitability.
+
+##  Overview of Key Technologies
+
 * Coding Languages: 
-* Python - Flask, Pandas, Numpy, Sklearn, Math, Datetime, SqlAlchemy, Pickle, Jupyter Notebook
+* Python
+** Flask, Pandas, Numpy, Sklearn, Math, Datetime, SqlAlchemy, Pickle, Jupyter Notebook, Google Colab
 * DataBase - Sqlite, PostGres 
 * Javascript - D3, Vanilla
 * HTML - BootStrap
