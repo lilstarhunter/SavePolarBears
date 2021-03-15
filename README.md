@@ -1,6 +1,6 @@
 # Emerging Trends: Climate Change Impact on Polar Bears
 
-![](Images/pb1.png)
+![Polar Bear](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.joshbrill.co%2Fhome&psig=AOvVaw2GYi_39aXyOOrue2W5DD_z&ust=1615922706210000&source=images&cd=vfe&ved=0CAYQjRxqFwoTCJDm7qqDs-8CFQAAAAAdAAAAABAD)
 
 
 Collaborative project to showcase variety of skills mastered following a 6 month bootcamp in Data Analysis and Visualization at the University of Pennsvylania. Created a full-stack machine learning web application which provides essential information on climate, polar bear population, and identifys emerging trends where climate change intersects the Arctic polar bear species. 
