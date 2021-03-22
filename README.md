@@ -19,7 +19,7 @@ Conducted data manipulation from 6 independent sources, trained unsupervised lea
 
 - [Application Architecture](#Architecture)
 - [Visualizations](#Visualizations)
-- [Machine Learning](#Machine Learning)
+- [Machine Learning](#ML)
 - [Predict](#Predict)
 
 <br>
