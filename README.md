@@ -12,43 +12,72 @@ Conducted data manipulation from 6 independent sources, trained unsupervised lea
 * **Database Management**: SQLite, pgAdmin, AWS R3, AWS RDS, PostGres
 * **Web Development**: Javascript, D3.js, Vanilla, HTML, Bootstrap
 
+<br>
+
 # Table of Contents
 
-- [Architecture](#Architecture)
+- [App Architecture](#Architecture)
+- [Visualizations](#Visualizations)
 - [Machine Learning](#development)
-    - [Adding to Chrome](#adding-to-chrome)
-    - [Adding to Firefox](#adding-to-firefox)
 - [Predict](#contribute)
 
-# App Architecture
-![](Images/diagram.png)
+<br>
 
-The architecture of the application was to use raw csv data file collected from various sources. Have those file sitting in a S3 bucket. The data was then cleaned and manipluated leveraging Jupyter Notebooks as well as Google Colab. Once cleaned and shaped it was sent to a AWS RDS database where the PGAdmin tool was used to create the needed tables, the data was then used by the Tableau analytics tool to create Maps and Graphs as well as used in the training of the Machine learning Model.
+# Architecture
 
-![](Images/wireframe.PNG)
+## Creating Operation Polar Bear Database
 
-The ground work for the web application was layed using flask, Python, Javascript, HTML
+1. Identify datasets and download CSV files
+    Create an Relational Database using AWS RDS
+2. Create Buckets to store the data and link to AWS RDS
+3. Utilize Googles Colab import the Pyspark library to tranferr data from AWS S3 to AWS RDS Postgres DB
+4. Access the AWS RDS using PGAdmin
 
-![](Images/tb1.png)
+[Code available at Google Colab](https://colab.research.google.com/gist/lilstarhunter/358ed454c43361c6cee5ead3b23eccea/polarbeardatabase.ipynb) 
 
-The Map and Charting was done using the popular data analytics tool Tableau where it was set to the Tableau public could and then imported into the application.
+## App Wireframe
+The ground work for the web application was layed using flask, Python, Javascript, HTML.
 
-![](Images/fl1.png)
-The data was pull from the AWS RDS database using SqlAlchemy.
+**About**: Learn about polar bears and risk climate change imposes on long term survival of the species.
 
-![](Images/data.png)
-The data table was exported from the routes to the frontend using D3 js
+**Data**: Links to the data sources and allows users to interact with the data tables.
+
+**Graph & Map**: Tableau generated visualizations of polar bear data sets across time.
+
+**Machine**: Overview of the machine learning workflow and links to the google colab documents
+
+**Predict**: User interactive sliders to visualize how changes in climate metrics impact polar bear behavior.
+
+
+<div style="text-align:center"><img src="Images/wireframe2.png" width="350px"></div>
+
+
+<br>
+
+# Visualizations 
+Data visualizations, such as maps and charts, were created using Tableau public and imported into application. D3.js used for data table import and interaction.
+
+Arctic Circle Maps            |  Polar Bear Trends
+:-------------------------:|:-------------------------:
+![](Images/map.png)  |  ![](Images/chart.png)
+
+
 
 # Machine Learning
 
-![](Images/cl1.png)
-
 The ML was done with Sklearn,Pandas,Numpy, and Pickle Python libraries, Jupyter Notebook used to graphically analyze the data. The results from this analyzes was exported to the frontend of the application using javascript.
 
+<div style="text-align:center"><img src="static/ml_workflow.png"></div>
+
+<br>
 
 # Predict
 
+Users interact with sliders to adjust Land and Ocean Temperature, Global CO2 emissions, and Sea Ice Extent to predict 
+1. Suitablility of Polar Bear Habitat
+2. Polar Bear Mobility
+3. Maternal Den Location
 
 
 
-
+![](Images/predict.mp4)
