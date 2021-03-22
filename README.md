@@ -1,3 +1,6 @@
+
+https://user-images.githubusercontent.com/47579642/112043207-caa4a680-8b1e-11eb-9221-13bcb7c70381.mp4
+
 # Emerging Trends: Climate Change Impact on Polar Bears
 
 ![Polar Bear](https://images.squarespace-cdn.com/content/v1/51292042e4b0dc8d3ddb253e/1447634623486-ZVZYGIU5S1W1ZOHCF9MN/ke17ZwdGBToddI8pDm48kAgoMWptO3q6XYflqvkVwvd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ue4JYMJiQYQT2SajeNL8o6d3TTqzfqGg26y0ItpSLbmrAEWBWR6SmtzKWx2Ta0VnXw/PolarBear_Banner.jpg?format=1500w)
@@ -78,4 +81,4 @@ Users interact with sliders to adjust Land and Ocean Temperature, Global CO2 emi
 2. Polar Bear Mobility
 3. Maternal Den Location
 
-
+![](https://youtu.be/Y74U1o0uQ6E)
