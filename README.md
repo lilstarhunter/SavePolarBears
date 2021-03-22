@@ -79,5 +79,3 @@ Users interact with sliders to adjust Land and Ocean Temperature, Global CO2 emi
 3. Maternal Den Location
 
 
-
-![](Images/predict.mp4)
