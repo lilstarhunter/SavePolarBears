@@ -79,4 +79,4 @@ Users interact with sliders to adjust Land and Ocean Temperature, Global CO2 emi
 2. Polar Bear Mobility
 3. Maternal Den Location
 
-![]()(https://youtu.be/Y74U1o0uQ6E)
+[![](http://img.youtube.com/vi/Y74U1o0uQ6E/0.jpg)](http://www.youtube.com/watch?v=Y74U1o0uQ6E "Predict Polar Bear Behavior")
