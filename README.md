@@ -31,7 +31,7 @@ Conducted data manipulation from 6 independent sources, trained unsupervised lea
 1. Identify datasets and download CSV files
     Create an Relational Database using AWS RDS
 2. Create Buckets to store the data and link to AWS RDS
-3. Utilize Googles Colab import the Pyspark library to tranferr data from AWS S3 to AWS RDS Postgres DB
+3. Utilize Googles Colab import the Pyspark library to tranfer data from AWS S3 to AWS RDS Postgres DB
 4. Access the AWS RDS using PGAdmin
 
 [Code available at Google Colab](https://colab.research.google.com/gist/lilstarhunter/358ed454c43361c6cee5ead3b23eccea/polarbeardatabase.ipynb) 
